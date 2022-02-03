@@ -11,3 +11,11 @@
     align-items: center;
     justify-content: center;
 }
+
+.rounded {
+    border-radius: var(--br-full);;
+}
+
+.squared {
+    border-radius: var(--br-base);
+}
