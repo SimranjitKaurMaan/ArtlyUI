@@ -1,0 +1,21 @@
+.avatar {
+    background-color: var(--color-gray);
+    margin: var(--space-xs);
+}
+
+.avatar-sm {
+    height: 2rem;
+    width: 2rem;
+}
+
+.avatar-md {
+    height: 4rem;
+    width: 4rem;
+}
+
+.avatar-lg {
+    height: 6rem;
+    width: 6rem;
+}
+
+
