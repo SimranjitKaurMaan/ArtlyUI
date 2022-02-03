@@ -1,7 +1,5 @@
 .badge {
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: #F7706E;
+    background-color: #34D298;
     position: absolute;
     top: 0;
     right: 0;
@@ -9,12 +7,33 @@
     border-style: solid;
     border-color: var(--color-white);
     border-radius: var(--br-full);
-    text-align: center;
-    justify-content: center;
-    line-height: 1.5rem;
 }
 
 .badge-container {
     position: relative;
     display: inline-block;
+}
+
+.badge-lg{
+    width: 2rem;
+    height: 2rem;
+}
+
+.badge-sm{
+    width: 1rem;
+    height: 1rem;
+}
+
+.badge-md{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+.badge-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+    font-weight: var(--fw-bold);
 }
