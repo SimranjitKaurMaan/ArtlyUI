@@ -18,7 +18,7 @@
    font-weight: var(--fw-bold);
    margin: var(--space-sm);
    padding: var(--space-sm);
-   width: 50%;
+   width: fit-content;
 }
 
 .alert-primary {
