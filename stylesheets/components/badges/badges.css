@@ -1,0 +1,20 @@
+.badge {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #F7706E;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: var(--color-white);
+    border-radius: var(--br-full);
+    text-align: center;
+    justify-content: center;
+    line-height: 1.5rem;
+}
+
+.badge-container {
+    position: relative;
+    display: inline-block;
+}
