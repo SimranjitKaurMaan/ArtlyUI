@@ -1,6 +1,5 @@
 :root {
     /* Spacings */
-
     --space-xs: 0.5rem;
     --space-sm: 1rem;
     --space-md: 1.5rem;
@@ -13,11 +12,29 @@
      --fw-bold: 700;
 
      /* Font-Size */
-     --fs-xs: 0.75rem;
-     --fs-sm: 0.875rem;
-     --fs-base: 1rem;
-     --fs-lg: 1.125rem;
-     --fs-xl: 1.25rem;
-     --fs-xxl: 1.5rem;
+     --fs-xs: 0.5rem;
+     --fs-sm: 1rem;
+     --fs-base: 1.5rem;
+     --fs-lg: 2rem;
+     --fs-xl: 3rem;
+     
+     /* Line-Height */
+     --lh-xs: 1rem;
+     --lh-sm: 1.5rem;
+     --lh-base: 2rem;
+     --lh-lg: 2.5rem;
+     --lh-xl: 4rem;
 
+     /* Border-Radius */
+     --br-sm: 0.25rem;
+     --br-base: 0.625rem;
+     --br-lg: 1rem;
+     --br-full: 999px;
+
+     /* Border-Width */
+     --bw-xs: 0.25px;
+     --bw-sm: 0.5px;
+     --bw-base: 1px;
+     --bw-lg: 2px;
+     --bw-xl: 4px;
 }

@@ -1,0 +1,42 @@
+:root {
+    --color-blue-darker: #144B9D;
+    --color-blue-lighter: #D0E0FF;
+
+    --color-red-darker: #832128;
+    --color-red-lighter: #F8D7D9;
+
+    --color-green-darker: #0F5132;
+    --color-green-lighter: #D1E6DD;
+
+    --color-yellow-lighter: #FFF2CC;
+    --color-yellow-darker: #654D03;
+}
+.alert {
+   border-width: var(--bw-base);
+   border-radius: var(--br-sm);
+   border-style: solid;
+   font-weight: var(--fw-bold);
+   margin: var(--space-sm);
+   padding: var(--space-sm);
+   width: fit-content;
+}
+
+.alert-primary {
+   color: var(--color-blue-darker);
+   background-color: var(--color-blue-lighter);
+}
+
+.alert-danger {
+    color: var(--color-red-darker);
+    background-color: var(--color-red-lighter);
+ }
+
+ .alert-success {
+    color: var(--color-green-darker);
+    background-color: var(--color-green-lighter);
+ }
+
+ .alert-warning {
+    color: var(--color-yellow-darker);
+    background-color: var(--color-yellow-lighter);
+ }
