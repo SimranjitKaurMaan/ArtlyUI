@@ -3,7 +3,6 @@
     position: absolute;
     top: 0;
     right: 0;
-    z-index: 1;
     border-style: solid;
     border-color: var(--color-white);
     border-radius: var(--br-full);
@@ -11,7 +10,7 @@
 
 .badge-container {
     position: relative;
-    display: inline-block;
+    width: max-content;
 }
 
 .badge-lg{
