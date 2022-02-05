@@ -104,7 +104,7 @@
     color: var(--color-primary);
   }
     
-  i {
+  .card-container i {
     width: 0.5rem;
     height: 0.5rem;
     padding-bottom: var(--space-sm);
