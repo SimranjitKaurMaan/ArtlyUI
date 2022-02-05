@@ -1,0 +1,12 @@
+.img {
+   border-radius: var(--br-base);
+}
+
+.img-rounded {
+    border-radius: var(--br-full);
+}
+
+.img-10 {
+    width: 10rem;
+    height: 10rem;
+}
