@@ -33,10 +33,10 @@
 
 .btn-outlined.btn-primary{
     color: var(--color-primary);
-    border: 1px solid var(--color-primary);
+    border: var(--bw-base) solid var(--color-primary);
 }
 
 .btn-outlined.btn-secondary{
     color: var(--color-black);
-    border: 1px solid var(--color-secondary);
+    border: var(--bw-base) solid var(--color-secondary);
 }
