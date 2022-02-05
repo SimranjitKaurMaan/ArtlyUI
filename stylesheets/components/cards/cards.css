@@ -1,0 +1,118 @@
+:root {
+    --footer-icon-color: #666666;
+    --card-subtitle-text-color: #757575;
+  }
+.card-container {
+    background-color: var(--base-color);
+    margin: var(--space-lg);
+    border-radius: var(--br-sm);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 1px 2px grey;
+    width: 20rem;
+  }
+
+  .card-container.badge-container {
+    width: 20rem;
+  }
+  
+  img {
+    max-inline-size: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: var(--br-sm);
+  }
+
+  .dismiss-icon {
+     position: absolute;
+     top: 0;
+     right: 0;
+  }
+
+  .card-img {
+    width: 100%;
+    border-radius: var(--br-sm);
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+  }
+ 
+  /* image css */  
+  .card-title {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-bold);
+  }
+  
+  .card-subtitle {
+    margin-top: 0rem;
+    color: var(--card-subtitle-text-color);
+    font-size: 0.75rem;
+    font-weight: var(--fw-bold);
+  }
+  
+  .card-description {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: var(--card-subtitle-text-color);
+  }
+
+  /* card body aside */
+  .card-body.card-body-compact {
+    display: flex;
+  }
+  
+  .card-content-aside {
+    flex-grow: 1;
+    padding: var(--space-sm) var(--space-xs);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-content-overlay {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+  }
+
+  .card-content-overlay > .card-title {
+    color: var(--color-white);
+  }
+  .card-content-overlay > .card-subtitle {
+    color: var(--color-white);
+  }
+
+  .card-img.card-vertical-img {
+    height: 15rem;
+  }
+
+  /* --------card footer---------------- */
+.card-footer {
+    padding: var(--space-xs) 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--footer-icon-color);
+    font-weight: var(--fw-bold);
+  }
+  
+  .read,
+  .bookmark {
+    color: var(--color-primary);
+  }
+    
+  .card-container i {
+    width: 0.5rem;
+    height: 0.5rem;
+    padding-bottom: var(--space-sm);
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
