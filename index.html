@@ -2,6 +2,7 @@
     <head>
         <title>Component Library</title>
         <link rel="stylesheet" href="./stylesheets/main.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     </head>
     <body>
         <!-- Typography -->
@@ -10,10 +11,109 @@
         <h3>H3 Component Library</h3>
         <p>Paragraph</p>
 
-        <!-- Alerts -->
-        <div class="alert alert-primary flex-row-wrap-start">A simple primary alert—check it out!</div>
-        <div class="alert alert-danger flex-row-wrap-start">A simple danger alert—check it out!</div>
-        <div class="alert alert-success flex-row-wrap-center">A simple success alert—check it out!</div>
-        <div class="alert alert-warning flex-row-wrap-center">A simple warning alert—check it out!</div>
+        <!-- Cards -->
+        <!-- Vertical Card -->
+        <div class="card-container">
+            <div class="card-body">
+                <div class="card-img">
+                    <img src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg" srcset="
+                                                                                            https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg 100w
+                                                                                          " sizes="(min-width: 600px) 200px,100px"/>
+                </div>
+                <div class="card-content-aside">
+                    <div class="card-title">Picaso Painting</div>
+                    <div class="card-subtitle">by Picaso</div>
+                    <div class="card-subtitle">$2000</div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a class="read" href="#">READ</a>
+                <a class="bookmark" href="#">BOOKMARK</a>
+                <a class="like" href="#">
+                    <i class="fas fa-heart"></i>
+                </a>
+                <a class="share" href="#">
+                    <i class="fas fa-share-alt"></i>
+                </a>
+                <a class="more" href="#">
+                    <i class="fas fa-ellipsis-v"></i>
+                </a>
+            </div>
+        </div>
+        <!-- Horizontal Card (Shadow) -->
+        <div class="card-container">
+            <div class="card-body card-body-compact">
+                <div class="card-img">
+                    <img src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg" srcset="
+                                                                                            https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg 100w
+                                                                                          " sizes="(min-width: 600px) 200px,100px"/>
+                </div>
+                <div class="card-content-aside">
+                    <div class="card-title">Picaso Painting</div>
+                    <div class="card-subtitle">by Picaso</div>
+                    <div class="card-subtitle">$2000</div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a class="read" href="#">READ</a>
+                <a class="bookmark" href="#">BOOKMARK</a>
+                <a class="like" href="#">
+                    <i class="fas fa-heart"></i>
+                </a>
+                <a class="share" href="#">
+                    <i class="fas fa-share-alt"></i>
+                </a>
+                <a class="more" href="#">
+                    <i class="fas fa-ellipsis-v"></i>
+                </a>
+            </div>
+        </div>
+        <!-- Vertical Text Card -->
+        <div class="card-container">
+            <div class="card-body">
+                <div class="card-content-aside">
+                    <div class="card-title">Picaso Painting</div>
+                    <div class="card-subtitle">by Picaso</div>
+                    <div class="card-description">Visit ten places on our planet that are undergoing the biggest changes today.</div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a class="read" href="#">READ</a>
+                <a class="bookmark" href="#">BOOKMARK</a>
+                <a class="like" href="#">
+                    <i class="fas fa-heart"></i>
+                </a>
+                <a class="share" href="#">
+                    <i class="fas fa-share-alt"></i>
+                </a>
+                <a class="more" href="#">
+                    <i class="fas fa-ellipsis-v"></i>
+                </a>
+            </div>
+        </div>
+        <!-- Vertical Text Card With Dismiss -->
+        <div class="card-container">
+            <div class="card-header"><button class="close-button">X</button></div>
+            <div class="card-body">
+                <div class="card-content-aside">
+                    <div class="card-title">Picaso Painting</div>
+                    <div class="card-subtitle">by Picaso</div>
+                    <div class="card-description">Visit ten places on our planet that are undergoing the biggest changes today.</div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a class="read" href="#">READ</a>
+                <a class="bookmark" href="#">BOOKMARK</a>
+                <a class="like" href="#">
+                    <i class="fas fa-heart"></i>
+                </a>
+                <a class="share" href="#">
+                    <i class="fas fa-share-alt"></i>
+                </a>
+                <a class="more" href="#">
+                    <i class="fas fa-ellipsis-v"></i>
+                </a>
+            </div>
+        </div>
     </body>
 </html>
