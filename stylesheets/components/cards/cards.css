@@ -12,6 +12,10 @@
     box-shadow: 0 1px 2px grey;
     width: 20rem;
   }
+
+  .card-container.badge-container {
+    width: 20rem;
+  }
   
   img {
     max-inline-size: 100%;
