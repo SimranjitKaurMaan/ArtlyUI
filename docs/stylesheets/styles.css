@@ -72,5 +72,5 @@ aside {
 .badge-container > *
 .avatar-container > *,
 .image-container > *{
-    margin: 1rem;
+    margin: var(--space-sm);
 }
