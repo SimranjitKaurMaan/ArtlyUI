@@ -70,6 +70,7 @@ aside {
 .floating-button-container > *,
 .icon-button-container > * ,
 .badge-container > *
-.avatar-container > *{
+.avatar-container > *,
+.image-container > *{
     margin: 1rem;
 }
