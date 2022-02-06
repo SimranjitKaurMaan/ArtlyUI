@@ -1,3 +1,11 @@
+img {
+    max-inline-size: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: var(--br-sm);
+  }
+
 .img {
    border-radius: var(--br-base);
 }
