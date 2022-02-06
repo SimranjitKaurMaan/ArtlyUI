@@ -33,7 +33,7 @@ h3 {
 
 /* Paragraph */
 p {
-    font-size: var(--fs-base);
+    font-size: var(--fs-sm);
     font-weight: var(--fw-normal);
     color: var(--color-black);
 }
