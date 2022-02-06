@@ -17,14 +17,6 @@
     width: 20rem;
   }
   
-  img {
-    max-inline-size: 100%;
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: top center;
-    border-radius: var(--br-sm);
-  }
-
   .dismiss-icon {
      position: absolute;
      top: 0;
