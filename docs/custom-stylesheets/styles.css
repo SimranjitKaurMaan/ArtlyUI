@@ -81,6 +81,7 @@ aside {
     font-weight: var(--fw-bold);
 }
 
-.img-5 {
-
+.flex-row-wrap-center {
+    padding: var(--space-md);
+    margin: var(--space-sm)
 }
