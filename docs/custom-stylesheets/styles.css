@@ -71,6 +71,7 @@ aside {
 .icon-button-container > * ,
 .badge-container > *
 .avatar-container > *,
-.image-container > *{
+.image-container > *,
+.input-container > *{
     margin: var(--space-sm);
 }
