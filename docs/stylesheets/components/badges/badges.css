@@ -4,6 +4,8 @@
 .badge-container {
     position: relative;
     width: max-content;
+    margin: var(--space-sm);
+
 }
 .badge {
     background-color: var(--color-green);
