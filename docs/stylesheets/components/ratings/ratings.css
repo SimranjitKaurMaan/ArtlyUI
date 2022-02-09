@@ -1,7 +1,7 @@
-.checked {
+.icon-checked {
     color: var(--color-orange);
 }
 
-.unchecked {
+.icon-unchecked {
     color: var(--color-gray-lighter);
 } 
