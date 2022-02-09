@@ -73,6 +73,7 @@ aside {
 .badge-container > *,
 .modal-container > *,
 .avatar-container > *,
+.snackbar-container > *,
 .image-container > *,
 .input-container > *{
     margin: var(--space-sm);
