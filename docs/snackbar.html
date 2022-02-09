@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>MarvelUI</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="./stylesheets/main.css"/>
+        <link rel="stylesheet" href="./custom-stylesheets/styles.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    </head>
+    <body>
+        <aside>
+            <div class="logo-container">
+                <a href="./index.html"><img class="logo" src="./assets/logo.svg"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./alert.html">Alert</a></li>
+                    <li><a href="./avatar.html">Avatar</a></li>
+                    <li><a href="./badge.html">Badge</a></li>
+                    <li><a href="./button.html">Button</a></li>
+                    <li><a href="./card.html">Card</a></li>
+                    <li><a href="./image.html">Image</a></li>
+                    <li><a href="./input.html">Input</a></li>
+                    <li><a href="./snackbar.html">Snackbar</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <div class="main-section">
+                <div class="main-container flex-col-wrap-center">
+                    <h1 class="header">Snackbar</h1>
+                    <p class="sub-header">Snackbars provide brief messages about app processes at the bottom of the screen.</p>
+                    <div class="snackbar-container flex-col-wrap-center">
+                        <h2>Leading Snackbar</h2>
+                        <div class="flex-row-wrap-center">
+                            <div class="snackbar-wrapper">
+                                <div class="snackbar-text">Can't send photo. Retry in 5 seconds.</div>
+                                <div class="snackbar-actions">
+                                    <button class="snackbar-button">RETRY</button>
+                                    <button class="snackbar-button snackbar-close">X</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-snippet">
+                            <iframe src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C252%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex-row-wrap-center%2522%253E%250A%253Cdiv%2520class%253D%2522snackbar-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-text%2522%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snackbar-button%2522%253ERETRY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snackbar-button%2520snackbar-close%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E" style="width: 774px; height: 353px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
+                        </div>
+                    </div>
+                    <div class="snackar-container flex-col-wrap-center">
+                        <h2>Stacked Snackbar</h2>
+                        <div class="flex-row-wrap-center">
+                            <div class="snackbar-wrapper snackbar-stacked">
+                                <div class="snackbar-text">
+                                    This item already has the label "travel". You can add a new label.
+                                </div>
+                                <div class="snackbar-actions">
+                                    <button class="snackbar-button">ADD NEW LABEL</button>
+                                    <button class="snackbar-button snackbar-close">X</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-snippet">
+                            <iframe src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C252%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar-wrapper%2520snackbar-stacked%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-text%2522%253E%250A%2520%2520%2520%2520%2520%2520This%2520item%2520already%2520has%2520the%2520label%2520%2522travel%2522.%2520You%2520can%2520add%2520a%2520new%2520label.%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snackbar-button%2522%253EADD%2520NEW%2520LABEL%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snackbar-button%2520snackbar-close%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E" style="width: 757px; height: 353px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

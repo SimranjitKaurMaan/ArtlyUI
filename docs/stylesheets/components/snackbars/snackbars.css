@@ -1,0 +1,39 @@
+.snackbar-wrapper {
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 2px var(--color-gray-darker);
+    border-radius: var(--br-sm);
+    width: fit-content;
+    padding: 0.5rem;
+  }
+  
+  .snackbar-button {
+    border-style: none;
+    margin: 0.2rem 0rem;
+    padding: var(--space-xs) var(--space-sm);
+    background-color: transparent;
+    color: var(--color-primary);
+    font-weight: lighter;
+    font-size: var(--fs-sm)
+  }
+  
+  .snackbar-text {
+    padding: var(--space-xs) var(--space-sm);
+  }
+  
+  .snackbar-wrapper {
+    color: var(--color-black);
+  }
+  
+  .snackbar-close {
+    color: var(--color-black);
+    font-weight: lighter;
+  }
+  
+  .snackbar-wrapper.snackbar-stacked {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
