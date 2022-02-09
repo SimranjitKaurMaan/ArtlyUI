@@ -70,7 +70,8 @@ aside {
 .floating-button-container > *,
 .icon-button-container > * ,
 .alert-container > *,
-.badge-container > *
+.badge-container > *,
+.modal-container > *,
 .avatar-container > *,
 .snackbar-container > *,
 .image-container > *,
