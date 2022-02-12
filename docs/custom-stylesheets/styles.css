@@ -144,6 +144,7 @@ header > * {
 
 .header-link {
     color: var(--color-black);
+    padding-right: 1rem;
 }
 
 .header-actions > button {
@@ -183,3 +184,4 @@ footer {
 .highlight-text {
     color: var(--color-primary)
 }
+
