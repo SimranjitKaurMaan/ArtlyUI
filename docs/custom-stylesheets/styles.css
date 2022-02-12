@@ -74,13 +74,6 @@ a {
     padding: var(--space-sm) var(--space-xlg);
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    color: var(--color-gray-darker);
-}
-
 li {
     margin: 2rem 0;
 }

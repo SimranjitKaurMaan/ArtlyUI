@@ -21,6 +21,9 @@
 .btn-link {
     background: none;
     text-decoration: underline;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
 }
 
 .btn-floating {
