@@ -14,7 +14,6 @@
 .alert {
    border-width: var(--bw-base);
    border-radius: var(--br-sm);
-   border-style: solid;
    font-weight: var(--fw-bold);
    margin: var(--space-sm);
    padding: var(--space-sm);

@@ -1,7 +1,7 @@
 :root{
     --color-primary: #F66B26;
     --color-primary-darker: #FE6A4B;
-    --color-primary-lighter: #FFB896;
+    --color-primary-lighter: #FAE6DE;
 
     --color-secondary: #96DDFF;
     --color-secondary-darker: #9ad13b;
@@ -13,6 +13,6 @@
     --color-gray-darker: grey;
     --color-gray-lighter: #DDDCDC;
     --color-gray-light: #e3e3e3c7;
-    --color-red: red;
+    --color-red: #F66868;
     --color-orange: orange;
 }
