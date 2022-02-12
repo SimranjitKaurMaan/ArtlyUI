@@ -44,6 +44,11 @@ aside {
     padding: 0 5rem;
     grid-area: aside;
     border-right: 2px solid var(--color-aside-border);
+    width: max-content;
+}
+
+aside a {
+    color: var(--color-gray-darker);
 }
 
 main {
@@ -175,3 +180,6 @@ footer {
     color: var(--color-black);
 }
 
+.highlight-text {
+    color: var(--color-primary)
+}
