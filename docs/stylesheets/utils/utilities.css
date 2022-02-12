@@ -20,10 +20,21 @@
     justify-content: center;
 }
 
+.flex-row-wrap-space-around {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .rounded {
     border-radius: var(--br-full);;
 }
 
 .squared {
     border-radius: var(--br-base);
+}
+
+.text-warning {
+    color: var(--color-orange);
 }
