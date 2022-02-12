@@ -5,7 +5,7 @@
     padding: var(--space-sm);
     margin: var(--space-xs);
     border-radius: var(--br-base);
-    box-shadow: 0 1px 2px grey;
+    box-shadow: 0 1px 2px var(--color-gray-darker);
 }
 
 .btn-primary {
@@ -25,7 +25,7 @@
 
 .btn-floating {
     border-radius: var(--br-full);
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 1px var(--color-gray-darker);
 }
 
 .btn.btn-floating {
