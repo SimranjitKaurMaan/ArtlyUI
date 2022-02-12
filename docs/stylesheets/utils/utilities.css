@@ -38,3 +38,7 @@
 .text-warning {
     color: var(--color-orange);
 }
+
+.text-primary {
+    color: var(--color-primary);
+}
