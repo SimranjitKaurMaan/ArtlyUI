@@ -21,7 +21,7 @@ aside {
     top: 0;
     left: 0;
     height: 100%;
-    padding: 0rem 5rem;
+    padding: 0 5rem;
 }
 
 main {
@@ -29,7 +29,7 @@ main {
 }
 
 .main-container > * {
-  margin: var(--space-lg);
+    margin: var(--space-lg);
 }
 
 a {
@@ -48,7 +48,7 @@ a {
 }
 
 li {
-    margin: 2rem 0rem;
+    margin: 2rem 0;
 }
 
 aside {
@@ -66,16 +66,17 @@ aside {
 
 .primary-button-container > *,
 .secondary-button-container > *,
-.link-button-container > * ,
+.link-button-container > *,
 .floating-button-container > *,
-.icon-button-container > * ,
+.icon-button-container > *,
 .alert-container > *,
+.footer-container > *,
 .badge-container > *,
 .modal-container > *,
 .avatar-container > *,
 .snackbar-container > *,
 .image-container > *,
-.input-container > *{
+.input-container > * {
     margin: var(--space-sm);
 }
 
@@ -86,4 +87,23 @@ aside {
 .flex-row-wrap-center {
     padding: var(--space-md);
     margin: var(--space-sm)
+}
+
+body {
+    display: flex;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+}
+
+.footer-container i {
+    padding: var(--space-sm);
+    color: var(--color-gray-darker);
+}
+
+.footer-text {
+    padding: 0;
+    margin: 0;
 }
