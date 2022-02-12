@@ -1,5 +1,6 @@
 :root {
     --color-aside-border: #DBDBDB;
+    --color-background: #FBEAE6;
 }
 .section {
     margin: var(--space-sm);
@@ -94,6 +95,7 @@ aside {
 
 body {
     display: flex;
+    background-color: var(--color-background);
 }
 
 header {
