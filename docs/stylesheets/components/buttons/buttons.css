@@ -30,6 +30,7 @@
 
 .btn-outlined {
     background-color: transparent;
+    box-shadow: none;
 }
 
 .btn-outlined.btn-primary{
