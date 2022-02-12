@@ -15,9 +15,6 @@ h2 {
 }
 
 .wrapper {
-    /* display: flex;
-    flex-wrap: wrap;
-    width: 100%; */
     display: grid;
     width: 100%;
     grid-gap: 20px;
@@ -44,24 +41,12 @@ h2 {
 }
 
 aside {
-    /* position: fixed; */
-    /* top: 0;
-    left: 0;
-    height: 100%; */
-    /* margin-right: auto;
-    margin-bottom: auto;
-     */ 
     padding: 0 5rem;
-    /* background-color: seagreen; */
-    /* border: 1px solid var(--color-aside-border);
-    color: var(--color-black);
-    display: inline-block; */
     grid-area: aside;
 }
 
 main {
     width: 100%;
-    /* background-color: red; */
     grid-area: main;
 }
 
@@ -99,7 +84,6 @@ li {
 }
 
 header {
-    /* background-color: blueviolet; */
     grid-area: header;
 }
 
@@ -130,7 +114,6 @@ header {
 
 body {
     display: flex;
-    /* background-color: royalblue; */
 }
 
 header {
@@ -165,7 +148,6 @@ header > * {
 footer {
     margin-top: auto;
     width: 100%;
-    /* background-color: silver; */
     grid-area: footer;
 }
 
