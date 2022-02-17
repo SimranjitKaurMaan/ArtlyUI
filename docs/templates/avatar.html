@@ -1,16 +1,16 @@
 <html>
     <head>
-        <title>ArtlyUI | Alert</title>
+        <title>ArtlyUI | Avatar</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-        <link rel="stylesheet" href="./stylesheets/main.css"/>
-        <link rel="stylesheet" href="./custom-stylesheets/styles.css"/>
+        <link rel="stylesheet" href="../../main.css"/>
+        <link rel="stylesheet" href="../styles/styles.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     </head>
     <body>
         <div class="component-wrapper">
             <header>
                 <div class="logo-container">
-                    <a href="./index.html">
+                    <a href="../../index.html">
                     <h1>Artly<span class="logo-text">UI</span></h1></a>
                 </div>
                 <div class="header-actions">
@@ -47,21 +47,29 @@
             <main>
                 <div class="main-section">
                     <div class="main-container flex-col-wrap-center">
-                        <h1 class="header">Rating</h1>
-                        <p class="sub-header">Rating that helps visualising and interacting with a star rating bar.</p>
-                        <div class="modal-container flex-col-wrap-center">
-                            <h2>Star Rating</h2>
+                        <h1 class="header">Avatar</h1>
+                        <p class="sub-header">Avatar (aka Userpic) is a component used to represent a user's profile picture.</p>
+                        <div class="avatar-container flex-col-wrap-center">
+                            <h2>Rounded Avatars</h2>
                             <div class="flex-row-wrap-center">
-                                <div class="rating-wrapper">
-                                    <i class="fa fa-star icon-checked"></i>
-                                    <i class="fa fa-star icon-checked"></i>
-                                    <i class="fa fa-star icon-checked"></i>
-                                    <i class="fa fa-star icon-unchecked"></i>
-                                    <i class="fa fa-star icon-unchecked"></i>
-                                </div>
+                                <img class="avatar avatar-sm rounded" src="../../assets/avatar-1.jpeg" alt="avatar">
+                                <img class="avatar avatar-md rounded" src="../../assets/avatar-1.jpeg" alt="avatar">
+                                <img class="avatar avatar-lg rounded" src="../../assets/avatar-1.jpeg" alt="avatar">
                             </div>
                             <div class="code-snippet">
-                                <iframe src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C252%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-wrapper%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520icon-checked%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520icon-checked%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520icon-checked%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520icon-unchecked%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520icon-unchecked%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E" style="width: 513px; height: 317px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
+                                <iframe src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C252%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2520rounded%2522%2520src%253D%2522replace-img-src%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-md%2520rounded%2522%2520src%253D%2522replace-img-src%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2520rounded%2522%2520src%253D%2522replace-img-src%2522%2520alt%253D%2522avatar%2522%253E" style="width: 766px; height: 242px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
+                            </div>
+                        </div>
+                        <div class="avatar-container flex-col-wrap-center">
+                            <h2>Square Avatars</h2>
+                            <div class="flex-row-wrap-center">
+                                <img class="avatar avatar-sm squared" src="../../assets/avatar-1.jpeg" alt="avatar">
+                                <img class="avatar avatar-md squared" src="../../assets/avatar-1.jpeg" alt="avatar">
+                                <img class="avatar avatar-lg squared" src="../../assets/avatar-1.jpeg" alt="avatar">
+    
+                            </div>
+                            <div class="code-snippet">
+                                <iframe src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C252%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2520squared%2522%2520src%253D%2522replace-img-src%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-md%2520squared%2522%2520src%253D%2522replace-img-src%2522%2520alt%253D%2522avatar%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2520squared%2522%2520src%253D%2522replace-img-src%2522%2520alt%253D%2522avatar%2522%253E" style="width: 766px; height: 242px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
                             </div>
                         </div>
                     </div>

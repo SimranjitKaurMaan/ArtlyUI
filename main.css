@@ -1,7 +1,11 @@
-@import url(./base/reset.css);
-@import url(./base/general.css);
-@import url(./abstracts/variables.css);
-@import url(./abstracts/colors.css);
+/* Importing Base Files */
+@import url(./stylesheets/base/reset.css);
+@import url(./stylesheets/base/general.css);
+@import url(./stylesheets/abstracts/variables.css);
+@import url(./stylesheets/abstracts/colors.css);
+@import url(./stylesheets/utils/utilities.css);
+
+/* Importing Component's CSS Files */
 @import url(./components/alerts/alerts.css);
 @import url(./components/avatar/avatars.css);
 @import url(./components/cards/cards.css);
@@ -12,4 +16,3 @@
 @import url(./components/snackbars/snackbars.css);
 @import url(./components/modals/modals.css);
 @import url(./components/ratings/ratings.css);
-@import url(./utils/utilities.css);
