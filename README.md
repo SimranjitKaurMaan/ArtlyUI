@@ -12,7 +12,7 @@ ArtlyUI CSS gears up you with a large set of pre-defined CSS classes. This makes
 You can use the links of stylesheet and script.
 
 CSS file link - 
-  `https://artlyui.netlify.app/stylesheets/main.css`
+  `https://artlyui.netlify.app/style.css`
 
 ## What are the components that ArtlyUI provides?
 
