@@ -1,3 +1,4 @@
+/* Text Alignment */
 .text-left {
     text-align: left;
 }
@@ -14,14 +15,7 @@
     text-align: justify;
 }
 
-.text-warning {
-    color: var(--color-orange);
-}
-
-.text-primary {
-    color: var(--color-primary);
-}
-
+/*  Text transformations */
 .text-uppercase {
     text-transform: uppercase;
 }
@@ -38,6 +32,7 @@
     text-transform: none;
 }
 
+/* Text Decoration */
 .text-underline	{
     text-decoration-line: underline;
 }
@@ -53,3 +48,47 @@
 .text-no-underline {
     text-decoration-line: none;
 }
+
+/* Headings */
+
+.heading-h1 {
+   font-weight: var(--fw-bold);
+   font-size: var(--fs-xl);
+}
+
+.heading-h2 {
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-lg);
+ }
+
+ .heading-h3 {
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-base);
+ }
+
+ .heading-h4 {
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-sm);
+ }
+
+ .text-sm {
+  font-size: var(--fs-sm);
+ }
+
+ .text-extra-sm {
+     font-size: var(--fs-xs);
+ }
+
+/* Text Color */
+
+.text-warning {
+    color: var(--color-orange);
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+ .text-disabled {
+   color: var(--color-gray-darker);
+ }
