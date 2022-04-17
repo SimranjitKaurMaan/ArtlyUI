@@ -28,4 +28,10 @@ ArtlyUI provides commonly used UI components. These are as follows:
 - Modal
 - Snackbar
 - Rating
+- Text Utilities
+- Lists
+- Navigation - Desktop
+- Navigation - Mobile
+- Range Slider 
+
 
