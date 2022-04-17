@@ -30,8 +30,8 @@ ArtlyUI provides commonly used UI components. These are as follows:
 - Rating
 - Text Utilities
 - Lists
+- Grid
 - Navigation - Desktop
 - Navigation - Mobile
-- Range Slider 
 
 
