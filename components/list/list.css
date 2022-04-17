@@ -15,3 +15,40 @@
 .list-outside {
     list-style-position: outside;
 }
+
+.stacked-list {
+    box-shadow: 0 1px 2px grey;
+    border-radius: 0.1rem;
+    padding: 0.4rem 0rem;
+  }
+    
+  .stacked-list-item {
+    margin: 0 0.4rem;
+    padding: 0.4rem;
+  }
+  
+  .stacked-list-item.active {
+    background-color: var(--color-primary-lighter);
+    margin: 0 0.4rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+  }
+  
+  .stacked-list-item:hover {
+    background-color: var(--color-gray-lighter);
+    margin: 0 0.4rem;
+    border-radius: 0.4rem;
+  }
+  
+  .stacked-list-item-text {
+    padding: 0 var(--space-lg);
+    width: 4rem;
+    height: 2rem;
+  }
+  
+  .stacked-list-item > i {
+      width: 4rem;
+      height: 2rem;
+      padding: var(--space-sm);
+      color: var(--color-gray-darker);
+  }
