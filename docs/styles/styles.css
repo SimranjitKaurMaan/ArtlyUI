@@ -161,7 +161,8 @@ li {
 .image-container > *,
 .input-container > *,
 .text-container > *,
-.text-wrapper > * {
+.text-wrapper > *,
+.list-container > * {
     margin: var(--space-sm);
 }
 
@@ -192,5 +193,10 @@ footer {
 }
 
 .text-wrapper {
+    width: 50rem;
+}
+
+.list-wrapper {
+    padding: var(--space-sm);
     width: 50rem;
 }
