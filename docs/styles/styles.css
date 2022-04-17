@@ -159,7 +159,9 @@ li {
 .avatar-container > *,
 .snackbar-container > *,
 .image-container > *,
-.input-container > * {
+.input-container > *,
+.text-container > *,
+.text-wrapper > * {
     margin: var(--space-sm);
 }
 
@@ -187,4 +189,8 @@ footer {
 
 .highlight-text {
     color: var(--color-primary-xtra-darker);
+}
+
+.text-wrapper {
+    width: 50rem;
 }

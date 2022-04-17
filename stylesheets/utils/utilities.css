@@ -34,11 +34,3 @@
 .squared {
     border-radius: var(--br-base);
 }
-
-.text-warning {
-    color: var(--color-orange);
-}
-
-.text-primary {
-    color: var(--color-primary);
-}
