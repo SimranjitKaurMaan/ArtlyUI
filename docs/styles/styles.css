@@ -161,6 +161,7 @@ li {
 .image-container > *,
 .input-container > *,
 .text-container > *,
+.navigation-container >*,
 .text-wrapper > *,
 .list-container > * {
     margin: var(--space-sm);
