@@ -34,3 +34,11 @@
 .squared {
     border-radius: var(--br-base);
 }
+
+.navigation-iframe {
+    width: 1000px; 
+    height: 500px; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
